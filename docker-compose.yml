@@ -1,0 +1,18 @@
+## Sample Docker compose file for using redis as service
+
+version: '3.4'
+
+networks:
+  net1:
+
+services:
+  tomcat:
+    image:  mahendrshinde/tomcat-redisson-session:latest
+    networks:
+    - net1
+    environment:
+      REDISHOST: "redis://localhost:6379"
+      REDISPASS: ""
+      MODE: "replicated"
+    ports:
+      - 8080:8080  
