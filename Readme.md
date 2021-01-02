@@ -11,3 +11,7 @@ You may optionally choose to `delete` the test-application i have included for t
 - The key prefix is `redisson:tomcat_session:` followed by your session-id
 - The environment variables are `REDISHOST` and `REDISPASS` for hostname and password respectively
 - The HOSTNAME must begin with redis protocol either `redis://` or `rediss://` and ends with port number
+
+## Video Demonstration
+
+![Demo on YouTube](https://youtu.be/0BiZL4suit8)

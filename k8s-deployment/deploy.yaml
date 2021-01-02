@@ -17,6 +17,22 @@ spec:
       ## Please update the image name
         image: mahendrshinde/tomcat-redisson-session:latest
         imagePullPolicy: IfNotPresent
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 20
+          periodSeconds: 10
+          timeoutSeconds: 3
+            
+        livenessProbe:
+          tcpSocket:
+            port: 8080
+          failureThreshold: 3
+          initialDelaySeconds: 20
+          periodSeconds: 10
+          timeoutSeconds: 3
+
         envFrom:
           - configMapRef:
               name: myapp
