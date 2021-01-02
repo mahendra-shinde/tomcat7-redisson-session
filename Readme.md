@@ -14,4 +14,4 @@ You may optionally choose to `delete` the test-application i have included for t
 
 ## Video Demonstration
 
-![Demo on YouTube](https://youtu.be/0BiZL4suit8)
+[![Demo on YouTube](https://i9.ytimg.com/vi/0BiZL4suit8/mq1.jpg?sqp=CJChwP8F&rs=AOn4CLDRUcikPB5QuDlxfQSk6nBrJyyW-Q)](https://www.youtube.com/watch?v=0BiZL4suit8)
